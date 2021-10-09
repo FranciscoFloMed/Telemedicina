@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mascota feliz</title>
+    <link rel="stylesheet" href="./estilo.css">
+    <script src="./script.js" defer></script>
+</head>
+<style>
+    body{
+        background-color: rgb(106, 189, 209);
+    }
+    #gato{
+        margin-left: 65%;
+    }
+    #lol{
+        margin-top: -525px;
+    }
+
+ 
+</style>
+<body>
+    <h1 style="text-align:center;">Veterinaria Mascota Feliz </h1>
+    
+    <div class="menu">
+        
+        <p data-target="#id">Inicio</p>
+        <p data-target="#CrearMascota">Crear mascota</p>
+        <p data-target="#CrearVeterinario">Crear veterinario</p>
+        <p data-target="#CrearDueño">Crear dueño</p>
+        <p data-target="#RegistrarVisita">Registrar visita</p>
+    </div>
+    
+    <div class="content"> <img id="gato" src="portada.png" alt="">
+
+        <div data-content id="lol" id="id" class="active">
+
+            <h1>Bienvenidos/as</h1>
+            
+            <p><b>Te damos la bienvenida a nuestra veterinaria Mascota Feliz,<br> nuestro proposito es brindar el mejor servicio 
+               posible a tus mascotas,<br> ofrecemos variedad de servicios para darte amplias opciones a tus necesidades y las de tu peludo.
+               </b>
+            </p>
+            
+        </div>
+
+        <div data-content id="CrearMascota">
+            <body>
+                <section class="form-register">
+                    <h4>Crear mascota </h4>
+                    <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese el nombre de su mascota">
+                    <input class="controls" type="text" name="raza" id="raza" placeholder="Ingrese la raza de su mascota">
+                    <input class="controls" type="text" name="tipo" id="tipo" placeholder="Ingrese el tipo de su mascota">
+                    <input class="controls" type="text" name="edad" id="edad" placeholder="Ingrese la edad de su mascota">
+                    <input class="controls" type="text" name="plan" id="plan" placeholder="Ingrese el plan de su mascota">
+                    <p>Estoy de acuerdo con Terminos y condiciones</p>
+                    <input type="checkbox">
+                    <input class="botons" type="submit" value="Registrar">
+                </section>
+            </body>
+        </div>
+
+        <div data-content id="CrearVeterinario">
+            <body>
+                <section class="form-register">
+                    <h4>Crear veterinario</h4>
+                    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su nombre">
+                    <input class="controls" type="text" name="identificacion" id="identificacion" placeholder="Ingrese su identificacion">
+                    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su apellidos">
+                    <input class="controls" type="text" name="telefonos" id="telefonos" placeholder="Ingrese su telefonos">
+                    <input class="controls" type="text" name="targeta profesional" id="targeta profesional" placeholder="Ingrese su numero de targeta">
+                    <p>Estoy de acuerdo con Terminos y condiciones</p>
+                    <input type="checkbox">
+                    <input class="botons" type="submit" value="Registrar">
+                </section>
+            </body>
+        </div>
+
+        <div data-content id="CrearDueño">
+            <body>
+                <section class="form-register">
+                    
+                    <h4>Crear dueño</h4>
+                    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su nombre">
+                    <input class="controls" type="text" name="identificacion" id="identificacion" placeholder="Ingrese su identificacion">
+                    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su apellidos">
+                    <input class="controls" type="text" name="telefonos" id="telefonos" placeholder="Ingrese su telefonos">
+                    <input class="controls" type="text" name="direccion" id="direccion" placeholder="Ingrese su direccion">
+                    <p>Estoy de acuerdo con Terminos y condiciones</p>
+                    <input type="checkbox">
+                    <input class="botons" type="submit" value="Registrar">
+                </section>
+            </body>
+        </div>
+
+        <div data-content id="RegistrarVisita">
+
+            <body>
+                <section class="form-register">
+                    
+                    <h4>Crear dueño</h4>
+                    <input class="controls" type="text" name="temperatura" id="temperatura" placeholder="Ingrese la temperatura">
+                    <input class="controls" type="text" name="peso" id="peso" placeholder="Ingrese el peso">
+                    <input class="controls" type="text" name="frecuencia respiratoria" id="frecuencia respiratoria" placeholder="Ingrese frecuencia respiratoria">
+                    <input class="controls" type="text" name="estado de animo" id="estado de animo" placeholder="Ingrese el estado de animo">
+                    <input class="controls" type="text" name="fecha visita" id="fecha visita" placeholder="Ingrese fecha de visita">
+                    <input class="controls" type="text" name="recomendaciones" id="recomendaciones" placeholder="Ingrese recomendaciones">
+                    <input class="controls" type="text" name="mascota" id="mascota" placeholder="Ingrese mascota">
+                    <input class="controls" type="text" name="veterinario" id="veterinario" placeholder="Ingrese veterinario">
+                    <p>Estoy de acuerdo con Terminos y condiciones</p>
+                    <input type="checkbox">
+                    <input class="botons" type="submit" value="Registrar">
+                </section>
+            </body>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
